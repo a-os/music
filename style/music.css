@@ -112,7 +112,7 @@ img:-moz-loading {
 
 /*
  * spinner animation styles copied from
- * shared/style/progress_activity.css
+ * shared/progress_activity/progress_activity.css
  */
 #spinner {
   position: absolute;
@@ -122,7 +122,7 @@ img:-moz-loading {
 
 /*
  * We have to make this explicit for progress elements because
- * shared/style/progress_activity.css has a display property that
+ * shared/progress_activity/progress_activity.css has a display property that
  * takes priority over the generic .hidden style in this file
  */
 progress.hidden { display: none; }

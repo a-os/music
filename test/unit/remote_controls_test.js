@@ -3,9 +3,9 @@
           MockNavigatormozSetMessageHandler */
 'use strict';
 
-require('/shared/js/media/remote_controls.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_bluetooth_helper.js');
+require('/shared/media/remote_controls/media/remote_controls.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_bluetooth_helper.js');
 
 suite('Media Remote Controls', function() {
   var mrc;

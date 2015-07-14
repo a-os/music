@@ -187,8 +187,8 @@ var App = (function() {
 
   function setupCommunications() {
     var files = [
-      'shared/js/bluetooth_helper.js',
-      'shared/js/media/remote_controls.js',
+      'shared/bluetooth_helper/bluetooth_helper.js',
+      'shared/media/remote_controls/media/remote_controls.js',
       'js/communications.js',
     ];
 

@@ -4,7 +4,7 @@
 'use strict';
 
 require('/test/unit/metadata/utils.js');
-require('/shared/js/omadrm/fl.js');
+require('/shared/omadrm/fl/omadrm/fl.js');
 require('/js/metadata/flac.js');
 require('/js/metadata/forward_lock.js');
 require('/js/metadata/id3v1.js');

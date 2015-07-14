@@ -17,7 +17,7 @@ var Database = (function() {
       '^(/[^/]*/)?(' + excludedFolders.join('|') + ')/', 'i'
     );
 
-    // Here we use the mediadb.js which gallery is using (in shared/js/)
+    // Here we use the mediadb.js which gallery is using (in shared/)/)
     // to index our music contents with metadata parsed.
     // So the behaviors of musicdb are the same as the MediaDB in gallery
     musicdb = new MediaDB('music', metadataParserWrapper, {

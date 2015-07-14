@@ -78,8 +78,8 @@ var MockGetDeviceStorage = function(store) {
       };
     },
     // need include libraries to test following domrequest functions
-    // * /shared/test/unit/mocks/mock_event_target.js
-    // * /shared/test/unit/mocks/mock_dom_request.js
+    // * /shared/unit_test_mocks/mock_event_target.js
+    // * /shared/unit_test_mocks/mock_dom_request.js
     freeSpace: function freeSpace() {
       return new MockDOMRequest();
     },

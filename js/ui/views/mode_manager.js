@@ -124,7 +124,7 @@ var ModeManager = {
           });
         } else if (view.id === 'views-search') {
           // The text normalizer is needed in search view.
-          LazyLoader.load('shared/js/text_normalizer.js', () => { resolve(); });
+          LazyLoader.load('shared/text_normalizer/text_normalizer.js', () => { resolve(); });
         } else {
           resolve();
         }

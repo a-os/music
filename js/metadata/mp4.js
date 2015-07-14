@@ -131,7 +131,7 @@ var MP4Metadata = (function() {
     // traverse. Maybe nextBox() and firstChildBox() functions would be
     // helpful. Or even make these methods of BlobView? Not sure if it is worth
     // the time to refactor, though... See also the approach in
-    // shared/js/get_video_rotation.js
+    // shared/get_video_rotation/get_video_rotation.js
     return new Promise(function(resolve, reject) {
       var offset = atom.sliceOffset + atom.viewOffset; // position in blob
       var size = atom.readUnsignedInt();
