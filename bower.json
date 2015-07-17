@@ -28,7 +28,7 @@
     "input_areas": "git@github.com:alivedise/input_areas.git#~0.0.1",
     "lazy_loader": "git@github.com:alivedise/lazy_loader.git#~0.0.1",
     "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
-    "media": "git@github.com:alivedise/media.git#~0.0.1",
+    "media": "git@github.com:alivedise/media.git#~0.0.2",
     "mediadb": "git@github.com:alivedise/mediadb.git#~0.0.1",
     "mime_mapper": "git@github.com:alivedise/mime_mapper.git#~0.0.1",
     "omadrm": "git@github.com:alivedise/omadrm.git#~0.0.1",
